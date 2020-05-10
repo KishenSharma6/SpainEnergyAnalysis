@@ -1,4 +1,4 @@
-date_time,total load forecast,total load actual,price day ahead,price actual,date,time,weekday,month,year
+date_time,total_load_forecast,total_load_actual,price_day_ahead,price_actual,date,time,weekday,month,year
 2015-01-01 00:00:00,26118.0,25385.0,50.1,65.41,2015-01-01,00:00:00,Thursday,January,2015
 2015-01-01 01:00:00,24934.0,24382.0,48.1,64.92,2015-01-01,01:00:00,Thursday,January,2015
 2015-01-01 02:00:00,23515.0,22734.0,47.33,64.48,2015-01-01,02:00:00,Thursday,January,2015
