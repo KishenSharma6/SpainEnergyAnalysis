@@ -1,5 +1,6 @@
-#Import KPSS and ADF
+#Import numpy, KPSS and ADF
 from statsmodels.tsa.stattools import adfuller, kpss
+import numpy as np
 
 #Function runs ADF and KPSS test on series, prints results
 def ADF_KPSS_test(series, periods):
