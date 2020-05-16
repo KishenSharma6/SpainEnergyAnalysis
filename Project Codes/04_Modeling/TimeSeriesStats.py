@@ -7,4 +7,5 @@ def model_performance(predictions, actual):
     mse = np.square(errors).mean()
     rmse = np.sqrt(mse)
     mae = np.abs(errors).mean()
-    print "METRICS\nMSE:{}\nRMSE:{}\nMAE:{}".format(mse,rmse,mae)
+    metrics = {'MSE': mse, 'RMSE':rmse, 'MAE': mae}
+    return(metrics)
