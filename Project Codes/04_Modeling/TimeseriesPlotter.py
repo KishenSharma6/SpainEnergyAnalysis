@@ -4,7 +4,7 @@ def timeseries_plot(series, figsize = None , title = None, xlabel = None, ylabel
     """
     Plot Time Series Data
     """
-    plot = series.plot(color = color,label = label,alpha=alpha, ax=ax)
+    plot = series.plot(color = color,label = label,alpha=alpha, ax=ax,figsize = figsize)
     plot.set_title(title, fontdict=title_dict)
     plot.set_ylabel(ylabel,fontdict=label_dict)
     plot.set_xlabel(xlabel,fontdict=label_dict)
