@@ -1,6 +1,5 @@
 #Function plots time series data
-def timeseries_plot(series, figsize = None , title = None, xlabel = None, ylabel = None,legend = False,label = None,
-                    title_dict = None, label_dict = None,color = None,ax=None, alpha = None):
+def timeseries_plot(series, figsize = None , title = None, xlabel = None, ylabel = None,legend = False,label = None,title_dict = None, label_dict = None,color = None,ax=None, alpha = None):
     """
     Plot Time Series Data
     """

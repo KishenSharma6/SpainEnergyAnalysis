@@ -6,7 +6,7 @@ import numpy as np
 def ADF_KPSS_test(series, periods):
     """
     Series: Time series data you would like to test for stationrity
-    Periods: Seasonal period
+    Periods: Where to cut series to remove NA's
     """
     #Convert series to values and subset to remove NA values
     X = series.values[periods:]
@@ -25,12 +25,13 @@ def ADF_KPSS_test(series, periods):
     print('P-Value: {}'.format(kpss_results[1]))
     for k,v in kpss_results[3].items():
         print('Critical Values {} : {}'.format(k,round(v,4)))
+    print('===============================================\n')
     
 #Function calculates and prints mean and variance metrics of first and second half of time series
 def mean_var_test(series, periods):
     """
     Series: Time series data you would like to test for stationrity
-    Periods: Seasonal period
+    Periods: Where to cut series to remove NA's
     """
     #Convert series to values and subset to remove NA values
     X = series.values[periods:]
@@ -42,4 +43,5 @@ def mean_var_test(series, periods):
     #calculate and print mean and var of 2 halves of time series 
     mean1, mean2 = np.mean(X1), np.mean(X2)
     var1, var2 = np.var(X1), np.var(X2)
-    return print('Mean1: {}\nMean2: {}\nVar1: {}\nVar2: {}'.format(mean1, mean2, var1, var2))
+    print('Mean1: {}\nMean2: {}\nVar1: {}\nVar2: {}'.format(mean1, mean2, var1, var2))
+    print('===============================================\n')
