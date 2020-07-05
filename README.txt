@@ -1,91 +1,17 @@
- - Build a multivariate model that predicts price of per hour energy usage in Spain
+In this repo, I did a Time Series analysis on energy and temperature data in Spain from 01/01/2015 - 12/31/2018. Energy data pertained to hourly energy consumptiom, production, and price while temperature data pertained to hourly temperature and weather conditions.
 
+[Data Source](https://www.kaggle.com/nicholasjhana/energy-consumption-generation-prices-and-weather)
 
-Spain_Energy_Analysis
-Package            Version
------------------- -------------------
-astroid            2.2.5
-attrs              19.3.0
-backcall           0.2.0
-beautifulsoup4     4.8.0
-bleach             3.1.5
-bokeh              1.3.0
-certifi            2020.4.5.2
-colorama           0.4.3
-cycler             0.10.0
-decorator          4.4.2
-defusedxml         0.6.0
-entrypoints        0.3
-holoviews          1.12.3
-importlib-metadata 1.6.1
-ipykernel          5.3.0
-ipython            7.15.0
-ipython-genutils   0.2.0
-ipywidgets         7.5.1
-jedi               0.17.1
-Jinja2             2.11.2
-joblib             0.15.1
-jsonschema         3.2.0
-jupyter            1.0.0
-jupyter-client     6.1.3
-jupyter-console    6.1.0
-jupyter-core       4.6.3
-kiwisolver         1.2.0
-Markdown           3.1.1
-MarkupSafe         1.1.1
-matplotlib         3.2.1
-mccabe             0.6.1
-mistune            0.8.4
-mkl-fft            1.1.0
-mkl-random         1.1.1
-mkl-service        2.3.0
-mpmath             1.1.0
-nbconvert          5.6.1
-nbformat           5.0.7
-nose               1.3.7
-notebook           6.0.3
-numpy              1.18.1
-packaging          20.4
-pandas             1.0.4
-pandocfilters      1.4.2
-panel              0.6.0
-param              1.9.1
-parso              0.7.0
-patsy              0.5.1
-pickleshare        0.7.5
-pip                20.1.1
-prometheus-client  0.8.0
-prompt-toolkit     3.0.5
-pyct               0.4.6
-Pygments           2.6.1
-pylint             2.3.1
-pyparsing          2.4.7
-pyrsistent         0.16.0
-python-dateutil    2.8.1
-pytz               2020.1
-pyviz-comms        0.7.2
-pywin32            228
-pywinpty           0.5.7
-pyzmq              19.0.1
-qtconsole          4.7.4
-QtPy               1.9.0
-scikit-learn       0.22.1
-scipy              1.4.1
-seaborn            0.9.0
-Send2Trash         1.5.0
-setuptools         47.3.0.post20200616
-six                1.15.0
-soupsieve          1.9.2
-statsmodels        0.10.1
-sympy              1.4
-terminado          0.8.3
-testpath           0.4.4
-tornado            6.0.4
-traitlets          4.3.3
-wcwidth            0.2.4
-webencodings       0.5.1
-wheel              0.34.2
-widgetsnbextension 3.5.1
-wincertstore       0.2
-xlrd               1.2.0
-zipp               3.1.0
+The goal of this analysis was to outperform the predictions made by the Transmission Service Operator (TSO) for hourly energy price and demand. Additionally, I wanted to explore which features had the biggest influence on energy demand.
+
+Business Value: By better understanding the relationship between energy production and the factors that influence energy demand, we can develop strategies to make green energy 
+
+Technologies used:
+Matplotlib
+Seaborn
+Numpy
+Pandas
+scikit-learn
+Univariate(Holt Winter's and ARMA)
+Multivariate Time Series techniques(XGBoost & Vectore Autoregression)
+
