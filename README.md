@@ -5,7 +5,8 @@ In this repo, I did a Time Series analysis on energy and temperature data in Spa
 
 The goal of this analysis was to outperform the predictions made by the Transmission Service Operator (TSO) for hourly energy price and demand. Additionally, I wanted to explore which features had the biggest influence on energy demand.
 
-**Business Value**: By better understanding the relationship between energy production and the factors that influence energy demand, we can develop strategies to make green energy 
+By better understanding the relationship between energy production and the factors that influence energy demand, we can develop energy production strategies that both anticipate the needs of Spanish citizens(to help drive costs down) while also attempting to reduce the harm on the environment. 
+
 
 ## Technologies used:
 Matplotlib
