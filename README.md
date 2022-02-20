@@ -3,20 +3,9 @@ In this repo, I did a Time Series analysis on energy and temperature data in Spa
 
 [Data Source](https://www.kaggle.com/nicholasjhana/energy-consumption-generation-prices-and-weather)
 
-The goal of this analysis was to outperform the predictions made by the Transmission Service Operator (TSO) for hourly energy price and demand. Additionally, I wanted to explore which features had the biggest influence on energy demand and price.
-
-By better understanding the relationship between energy production and the factors that influence energy demand, we can develop energy production strategies that both anticipate the needs of Spanish citizens(to help drive costs down) while also attempting to reduce the harm on the environment. 
-
-
-## Technologies used:
-Matplotlib
-Seaborn
-Numpy
-Pandas
-scikit-learn
-Univariate(Holt Winter's and ARMA)
-Multivariate Time Series techniques(XGBoost & Vectore Autoregression)
-
-If you are interested in running any of the source code on your local machine, feel free to reference the packages I used [here](https://github.com/KishenSharma6/Weather-Energy-Consumption-in-Spain/blob/master/References/Packages%20Used%20in%20VEnv.txt)
+The goal of this analysis was to outperform the predictions made by the Transmission Service Operator (TSO) for hourly energy price and demand by using different Machine Learning Techniques including:
+* ARIMA
+* Linear Regression
+* RNN'ss
 
 
