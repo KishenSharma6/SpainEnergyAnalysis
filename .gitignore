@@ -2,4 +2,5 @@
 .ipynb_checkpoints/
 
 #To Do list of things remaining for project
-TO-DO.txt
+todo.txt
+Data/*
